@@ -6,9 +6,10 @@ import java.util.Scanner;
 public class ReverseStringWithoutEffect {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String givenString = sc.nextLine();
-        String requiredString  = solve(givenString);
-        System.out.println(requiredString);
+      //  String givenString = sc.nextLine();
+       // String requiredString  = solve(givenString);
+      //  System.out.println(requiredString);
+        System.out.println(superReducedString("zztqooauhujtmxnsbzpykwlvpfyqijvdhuhiroodmuxiobyvwwxupqwydkpeebxmfvxhgicuzdealkgxlfmjiucasokrdznmtlwh"));
     }
     public static String solve(String s){
         char[] org= s.toCharArray();
@@ -36,5 +37,20 @@ public class ReverseStringWithoutEffect {
 //            System.out.print(temp[k]);
 //        }
         return new String(org);
+    }
+    static String superReducedString(String s) {
+        String ans="";
+        int[] arr = new int[26];
+        for(int i=0;i<s.length();i++){
+            arr[s.charAt(i)-'a']++;
+            arr[s.charAt(i)-'a']%=2;
+        }
+        for(int i=0;i<26;i++)
+            if(arr[i]!=0)
+                ans+=(char)('a'+i);
+            if(s.isEmpty())
+                return "Empty String";
+        return ans;
+
     }
 }
