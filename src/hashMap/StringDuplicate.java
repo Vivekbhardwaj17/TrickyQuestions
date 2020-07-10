@@ -1,4 +1,4 @@
-package HashMap;
+package hashMap;
 
 import java.util.HashMap;
 import java.util.Map;

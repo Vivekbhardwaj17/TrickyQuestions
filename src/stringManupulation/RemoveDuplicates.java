@@ -1,7 +1,7 @@
 package stringManupulation;
 
 import java.util.*;
- class RemoveDuplicateLetters {
+ class RemoveDuplicates {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
