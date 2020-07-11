@@ -2,7 +2,7 @@ package greedyAlgorithms;
 
 import java.util.Scanner;
 
-public class ActivitySelectionProblem {
+ class ActivitySelectionProblem {
     public static void main(String[] args) {
 
         Activity[] activity = new Activity[6];

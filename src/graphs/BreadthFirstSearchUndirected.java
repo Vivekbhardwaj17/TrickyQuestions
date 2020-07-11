@@ -1,7 +1,6 @@
 package graphs;
 
 import java.util.ArrayList;
-
 public class BreadthFirstSearchUndirected {
     private ArrayList<GraphNode> list = new ArrayList<>();
 
