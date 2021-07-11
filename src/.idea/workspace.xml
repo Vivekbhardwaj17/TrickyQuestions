@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3060e7e1-f032-448f-8b16-049f9b43c5ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hackerrank/NumberHackos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerrank/SherlockArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stringManupulation/Anagramhackerrank.java" beforeDir="false" afterPath="$PROJECT_DIR$/stringManupulation/Anagramhackerrank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stringManupulation/PalindromeMystery.java" beforeDir="false" afterPath="$PROJECT_DIR$/stringManupulation/PalindromeMystery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/numberManupulation/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prepbytes/Arrays/CheckPangram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prepbytes/Arrays/TinaLovesA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prepbytes/Arrays/UniqueArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stringManupulation/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stringManupulation/Scratch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Tricky Questions/patterns/StarPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patterns/StarPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/StarPattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +44,9 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1595052944902">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1611047481111">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1595052944902" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1611047481111" />
   </component>
 </project>

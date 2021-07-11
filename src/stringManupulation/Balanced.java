@@ -2,7 +2,7 @@ package stringManupulation;
 
 import java.util.Stack;
 
-class Balanced {
+public class Balanced {
     public static void main(String[] args) {
         System.out.println(isBalanced("({}([][]))[]()"));
     }

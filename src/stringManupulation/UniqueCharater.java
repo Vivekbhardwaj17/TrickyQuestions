@@ -3,7 +3,7 @@ package stringManupulation;
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class UniqueCharater {
   public static void main(String args[]) throws IOException {
     
     //write your code here
