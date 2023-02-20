@@ -1,0 +1,36 @@
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
+
+public class ExcelReader {
+    
+    public static void main(String[] args) throws IOException {
+        String filePath = "path/to/excel/file.xlsx";
+        Map<String, String> dataMap = readExcel(filePath);
+        System.out.println(dataMap);
+    }
+
+    private static Map<String, String> readExcel(String filePath) throws IOException {
+        FileInputStream inputStream = new FileInputStream(filePath);
+        Workbook workbook = WorkbookFactory.create(inputStream);
+        Sheet sheet = workbook.getSheetAt(0); // assuming data is in the first sheet
+        Map<String, String> dataMap = new HashMap<>();
+        for (Row row : sheet) {
+            Cell keyCell = row.getCell(0);
+            Cell valueCell = row.getCell(1);
+            String key = keyCell.getStringCellValue();
+            String value = valueCell.getStringCellValue();
+            dataMap.put(key, value);
+        }
+        workbook.close();
+        inputStream.close();
+        return dataMap;
+    }
+}
